@@ -14,7 +14,7 @@ public class Main {
 		
 		car2.combi();
 		System.out.println("ten samochód to "+car2.getType());
-		//dd
+		
 		
 		car2.pickup();
 		System.out.println("ten samochód to "
