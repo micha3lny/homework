@@ -25,7 +25,7 @@ public class Main {
 		
 		Stream.iterate(new int[] { 0, 1 }, t -> new int[] { t[1], t[0] + t[1] }).limit(7).forEach(x -> wynikFib.append(x[0] + " "));
 
-		System.out.println("Ci¹g Fibonnaciego " + wynikFib);
+		System.out.println("ci¹g Fibonnaciego " + wynikFib);
 		
 		
 		// litery alfabetu
